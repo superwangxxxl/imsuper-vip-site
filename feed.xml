@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>王宇宙 | WANGXXXL · 日更</title>
+        <link>https://wangxxxl.com/daily/</link>
+        <description>新闻简报、好项目、新插件、使用技巧与方法论。</description>
+        <lastBuildDate>Thu, 29 Oct 2026 05:06:33 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-CN</language>
+        <image>
+            <title>王宇宙 | WANGXXXL · 日更</title>
+            <url>https://wangxxxl.com/brand/WANGXXXL_512.png</url>
+            <link>https://wangxxxl.com/daily/</link>
+        </image>
+        <copyright>© 王宇宙 | WANGXXXL</copyright>
+        <atom:link href="https://wangxxxl.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ChatGPT Pro / Business 订阅可领 API Credits（最高 $500/月）]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-29-chatgpt-api-credits</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-29-chatgpt-api-credits</guid>
+            <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[符合条件的 ChatGPT Pro、Business 订阅满 7 天后，可在 Billing 里关联 API Organization，按套餐每月领取最高 $500 API 额度；首次按账期剩余天数折算，未用完不累计。]]></description>
+            <content:encoded><![CDATA[<h1 id="chatgpt-pro-business-订阅可领-api-credits-最高-500-月" tabindex="-1">ChatGPT Pro / Business 订阅可领 API Credits（最高 $500/月） <a class="header-anchor" href="#chatgpt-pro-business-订阅可领-api-credits-最高-500-月" aria-label="Permalink to &quot;ChatGPT Pro / Business 订阅可领 API Credits（最高 $500/月）&quot;">&ZeroWidthSpace;</a></h1>
+<h2 id="发生了什么" tabindex="-1">发生了什么 <a class="header-anchor" href="#发生了什么" aria-label="Permalink to &quot;发生了什么&quot;">&ZeroWidthSpace;</a></h2>
+<p><a href="https://x.com/OpenAIDevs/status/2115583698074755078" target="_blank" rel="noopener noreferrer">@OpenAIDevs</a> 宣布：符合条件的 <strong>ChatGPT Pro / Business</strong> 订阅用户，每月可领取最高 <strong>US$500</strong> 的 API Credits，用来做应用和 Agent。</p>
+<p>官方原文：</p>
+<blockquote>
+<p>Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents.</p>
+</blockquote>
+<h2 id="谁能领" tabindex="-1">谁能领 <a class="header-anchor" href="#谁能领" aria-label="Permalink to &quot;谁能领&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>适用</strong>：Pro 100 / Pro 200 / Pro 500；Business Standard / Premium 的收费席位</li>
+<li><strong>前提</strong>：订阅满 <strong>7 天</strong>；用同一邮箱登录 ChatGPT 与 API；你必须同时是 ChatGPT（或 Workspace）所有者 <strong>和</strong> API Organization 所有者</li>
+<li><strong>不适用</strong>：Plus、试用、Enterprise、Edu，以及旧 Codex 席位</li>
+<li><strong>绑定</strong>：一个合格订阅 / Workspace 只能关联 <strong>一个</strong> API Organization</li>
+<li>ChatGPT 账单与 API 账单是两套，互不影响</li>
+</ul>
+<h2 id="额度一览" tabindex="-1">额度一览 <a class="header-anchor" href="#额度一览" aria-label="Permalink to &quot;额度一览&quot;">&ZeroWidthSpace;</a></h2>
+<table tabindex="0">
+<thead>
+<tr>
+<th>套餐</th>
+<th>每月额度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pro 100</td>
+<td>US$100</td>
+</tr>
+<tr>
+<td>Pro 200</td>
+<td>US$200</td>
+</tr>
+<tr>
+<td>Pro 500</td>
+<td>US$500</td>
+</tr>
+<tr>
+<td>Business Standard</td>
+<td>每收费席位 US$20</td>
+</tr>
+<tr>
+<td>Business Premium</td>
+<td>每收费席位 US$100</td>
+</tr>
+<tr>
+<td>Business 工作区月封顶</td>
+<td>US$500（年付年封顶 US$6,000）</td>
+</tr>
+</tbody>
+</table>
+<p>首次发放按<strong>当前账期剩余天数</strong>折算；之后随续费每月自动发，<strong>未用完不累计到下月</strong>。</p>
+<h2 id="怎么领-四步" tabindex="-1">怎么领（四步） <a class="header-anchor" href="#怎么领-四步" aria-label="Permalink to &quot;怎么领（四步）&quot;">&ZeroWidthSpace;</a></h2>
+<ol>
+<li>订阅满 7 天</li>
+<li>打开 ChatGPT → <strong>Settings → Billing</strong></li>
+<li>找到 <strong>API credits benefit</strong></li>
+<li>点 <strong>关联组织</strong>，绑上你的 API Organization</li>
+</ol>
+<p><img src="/daily/2026-10-29-chatgpt-api-credits-billing.jpg" alt="ChatGPT Billing · API credits benefit"></p>
+<p>ChatGPT → Settings → Billing 里的 API credits benefit（关联组织入口）。</p>
+<p>也可在 API Platform 的 Billing 里确认。额度出现在 API Billing / Credit grants。</p>
+<h2 id="使用注意" tabindex="-1">使用注意 <a class="header-anchor" href="#使用注意" aria-label="Permalink to &quot;使用注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>续费自动发放，不必每月重新点领取</li>
+<li>周期结束未用完的额度过期，不滚动</li>
+<li>赠送额度一般先于你自己买的额度消耗</li>
+<li>覆盖大多数 API 能力（Responses、Chat Completions、Agents、Realtime、Images、内置工具等）</li>
+<li><strong>不适用于</strong>通过 API key 使用的 Codex；也不会提高 ChatGPT 或登录态 Codex 的用量上限</li>
+<li>用不完额度、又没有自购余额时，请求会失败（HTTP 429）</li>
+<li>取消订阅后不再新发；当期已发额度可用到账期末</li>
+<li>降到不适用套餐，关联会在账期末解除</li>
+<li>用赠送额度时，不必先绑 API 付款方式；额度也绕不过速率 / 模型 / 组织限额</li>
+</ul>
+<h2 id="对你有什么用" tabindex="-1">对你有什么用 <a class="header-anchor" href="#对你有什么用" aria-label="Permalink to &quot;对你有什么用&quot;">&ZeroWidthSpace;</a></h2>
+<p>如果你本来就在用 Pro / Business，又在调 API 做小工具或 Agent，这是每月可核对的额度，别漏领。领取入口在 ChatGPT Billing；细节以 OpenAI 帮助中心「API credits benefit for eligible ChatGPT subscriptions」为准。</p>
+]]></content:encoded>
+            <category>限免活动</category>
+            <category>限免活动</category>
+            <category>AI 工具</category>
+            <category>用量</category>
+        </item>
+        <item>
+            <title><![CDATA[Answer me with HTML：让 Agent 用一页可读 HTML 回答复杂问题]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-26-answer-me-with-html</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-26-answer-me-with-html</guid>
+            <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[QingYunA/answer-me-with-html（MIT，4413 星）是一个 Agent Skill：模型只写 Markdown 草稿，自带 am CLI 渲染成单页 HTML。我们 10/26 在 Linux 上装到 0.5.7，并渲染出约 119 KB 的示例页。]]></description>
+            <content:encoded><![CDATA[<h1 id="answer-me-with-html-让-agent-用一页可读-html-回答复杂问题" tabindex="-1">Answer me with HTML：让 Agent 用一页可读 HTML 回答复杂问题 <a class="header-anchor" href="#answer-me-with-html-让-agent-用一页可读-html-回答复杂问题" aria-label="Permalink to &quot;Answer me with HTML：让 Agent 用一页可读 HTML 回答复杂问题&quot;">&ZeroWidthSpace;</a></h1>
+<p>复杂原理、对比、排查过程，纯文字难扫。<a href="https://github.com/QingYunA/answer-me-with-html" target="_blank" rel="noopener noreferrer">Answer me with HTML</a>（QingYunA，MIT，截至 2026-10-26 <strong>4413</strong> star）是一个 <strong>Agent Skill</strong>：模型只写短 Markdown 草稿，捆绑的 <code>am</code> CLI 负责排版、主题和图表坐标，输出<strong>一页可打开的 HTML</strong>。官方说明：相对手写 HTML，模型写 Markdown 草稿大约只要约 <strong>1/8</strong> 的 token（以他们仓库内基准为准，我们未复测 token 数字）。</p>
+<p>适用 Claude Code / Codex / Cursor 等；需要 <strong>Node.js ≥ 20</strong>。</p>
+<h2 id="三步上手" tabindex="-1">三步上手 <a class="header-anchor" href="#三步上手" aria-label="Permalink to &quot;三步上手&quot;">&ZeroWidthSpace;</a></h2>
+<div class="steps">
+<ol>
+<li><strong>装 Skill</strong>（非 Claude Code）：<code>npx -y skills add QingYunA/answer-me-with-html -g -y -a cursor</code>（把 <code>cursor</code> 换成你的 Agent 名；Claude Code 用官方 plugin 安装，见案例页）。</li>
+<li><strong>确认版本</strong>：<code>node ~/.agents/skills/answer-me-with-html/scripts/am.mjs --version</code> → 应打印 <code>0.5.7</code>（或你装到的版本）。</li>
+<li><strong>渲染一页</strong>：把 Markdown 草稿交给 <code>am render</code>，默认写到 <code>~/.answer-me-with-html/pages/</code>。完整命令与避坑见 <a href="/cases/answer-me-with-html.html">/cases/answer-me-with-html</a>。</li>
+</ol>
+</div>
+<h2 id="wangxxxl-实测于-2026-10-26-utc-8" tabindex="-1">WANGXXXL 实测于 2026-10-26（UTC+8） <a class="header-anchor" href="#wangxxxl-实测于-2026-10-26-utc-8" aria-label="Permalink to &quot;WANGXXXL 实测于 2026-10-26（UTC+8）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>环境：Linux，Node.js 22.20.0；<code>npx -y skills add QingYunA/answer-me-with-html -g -y -a cursor</code> 成功，技能目录 <code>~/.agents/skills/answer-me-with-html</code>。</li>
+<li>CLI：<code>am.mjs --version</code> → <strong>0.5.7</strong>（与 <a href="https://github.com/QingYunA/answer-me-with-html/releases/tag/v0.5.7" target="_blank" rel="noopener noreferrer">v0.5.7</a> 一致）。</li>
+<li>渲染：用「TCP 三次握手」短草稿 <code>am render … --no-open --style off</code>，得到单文件 HTML，约 <strong>121,735</strong> 字节，输出提示 <code>sheet · paper · 3 panels</code>。</li>
+<li>未测：对接真实 Claude Code / Codex 会话里的自动调用、<code>am video</code>、联网主题目录。</li>
+</ul>
+<h2 id="注意" tabindex="-1">注意 <a class="header-anchor" href="#注意" aria-label="Permalink to &quot;注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>非 Claude 环境里，<code>SKILL.md</code> 仍写 <code>${CLAUDE_SKILL_DIR}</code>，Agent 若不替换路径会找不到 <code>am.mjs</code>（见 <a href="https://github.com/QingYunA/answer-me-with-html/issues/326" target="_blank" rel="noopener noreferrer">issue #326</a>）——改成技能目录绝对路径即可。</li>
+<li><code>style: strict</code> 会把引文也当正文检查，长引语可能直接拒写页面（见 <a href="https://github.com/QingYunA/answer-me-with-html/issues/329" target="_blank" rel="noopener noreferrer">issue #329</a>）；草稿阶段可先 <code>--style off</code> 或 <code>80</code>。</li>
+</ul>
+<p>完整安装、用法和避坑：<a href="/cases/answer-me-with-html.html">Answer me with HTML 案例页</a>。</p>
+]]></content:encoded>
+            <category>好项目</category>
+            <category>GitHub 高星项目</category>
+            <category>AI 工具</category>
+            <category>Agent Skill</category>
+            <category>实测</category>
+        </item>
+        <item>
+            <title><![CDATA[Grok Bot 飞书 / Lark 插件：在「连接应用」里直接授权，少配一遍 CLI]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-26-feishu-plugin</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-26-feishu-plugin</guid>
+            <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[社区与 @grok 回复确认：连接应用列表里已有飞书插件，授权后可读写信、文档。步骤来自公开说明，我们未走通授权；新插件更偏 Lark，部分飞书账号可能授权不顺。]]></description>
+            <content:encoded><![CDATA[<h1 id="grok-bot-飞书-lark-插件-在「连接应用」里直接授权-少配一遍-cli" tabindex="-1">Grok Bot 飞书 / Lark 插件：在「连接应用」里直接授权，少配一遍 CLI <a class="header-anchor" href="#grok-bot-飞书-lark-插件-在「连接应用」里直接授权-少配一遍-cli" aria-label="Permalink to &quot;Grok Bot 飞书 / Lark 插件：在「连接应用」里直接授权，少配一遍 CLI&quot;">&ZeroWidthSpace;</a></h1>
+<p>以前让 Grok Bot 读写飞书，常见做法是每个 Bot 单独开一个飞书应用，再走 CLI。2026-10-25 起，社区多人确认：<strong>「连接应用」里已经能搜到飞书插件</strong>，弹窗授权后可读写文档和消息，不用再为每个 Bot 重配一套 CLI 应用。</p>
+<p>依据（公开帖，<strong>不是</strong>我们实测授权）：</p>
+<ul>
+<li><a href="https://x.com/KinGao476942/status/2114228969465889003" target="_blank" rel="noopener noreferrer">@KinGao476942</a>（约 1.8 万浏览、51 赞、47 收藏）：提示词「请你弹窗、帮我连接到我的飞书插件应用」，再按指引授权。</li>
+<li><a href="https://x.com/fangqizhou/status/2114312794699149749" target="_blank" rel="noopener noreferrer">@fangqizhou</a>：对比「以前靠飞书 CLI、现在装插件按指引授权」。</li>
+<li><a href="https://x.com/grok/status/2114361747599405534" target="_blank" rel="noopener noreferrer">@grok</a>：确认可在「连接应用」搜索添加；能读写文档和消息；<strong>若账号授权不顺，可改用 CLI 或试 Lark 国际版</strong>。</li>
+</ul>
+<h2 id="怎么连-社区-grok-说法" tabindex="-1">怎么连（社区 / @grok 说法） <a class="header-anchor" href="#怎么连-社区-grok-说法" aria-label="Permalink to &quot;怎么连（社区 / @grok 说法）&quot;">&ZeroWidthSpace;</a></h2>
+<div class="steps">
+<ol>
+<li>在对话里让 Bot「请帮我连接到飞书插件」，或打开侧边栏 <strong>连接应用</strong>。</li>
+<li>搜索「飞书」或 Feishu / Lark，按弹窗完成官方授权。</li>
+<li>回到对话，让 Bot 列一下已连接应用，再试读一篇你有权限的文档。</li>
+</ol>
+</div>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>请帮我连接到飞书插件，授权完成后告诉我现在能读写哪些飞书能力。</span></span></code></pre>
+</div><h2 id="注意-务必读" tabindex="-1">注意（务必读） <a class="header-anchor" href="#注意-务必读" aria-label="Permalink to &quot;注意（务必读）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>我们未能在本环境完成飞书 / Lark 授权</strong>，因此本页<strong>不写「WANGXXXL 实测」</strong>；能力边界以连接应用内实际列表和授权结果为准。</li>
+<li>新插件目前更偏 <strong>Lark（国际版）</strong> 一侧；飞书账号与 Lark 账号、授权链路<strong>通常不通用</strong>。授权失败时，<a href="https://x.com/grok/status/2114355684338696433" target="_blank" rel="noopener noreferrer">@grok</a> 建议改用飞书 CLI，或改试 Lark 国际版。</li>
+<li>连接器账号级共享：连一次，你名下多个 Bot 可能都能用——只连需要的应用，写操作保持「先问我」。详见 <a href="/basics/connectors-plugins.html">连接器与插件</a>。</li>
+</ul>
+<p>资料入口：<a href="https://x.com/KinGao476942/status/2114228969465889003" target="_blank" rel="noopener noreferrer">Kin 的说明帖</a> · <a href="/basics/connectors-plugins.html">连接器与插件</a></p>
+]]></content:encoded>
+            <category>新插件</category>
+            <category>插件</category>
+            <category>飞书</category>
+            <category>Lark</category>
+            <category>连接应用</category>
+        </item>
+        <item>
+            <title><![CDATA[CamoFox：给 Agent 的隐蔽浏览器，快照比 HTML 小约 90%]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-25-camofox-browser</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-25-camofox-browser</guid>
+            <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[jo-inc/camofox-browser（约 1.2 万星，MIT）把 Camoufox 包成 REST 服务；无障碍树快照 + 元素引用，适合当 Agent 浏览后端。我们 10/25 在 Linux 上装通并跑通 example.com 快照。]]></description>
+            <content:encoded><![CDATA[<h1 id="camofox-给-agent-的隐蔽浏览器-快照比-html-小约-90" tabindex="-1">CamoFox：给 Agent 的隐蔽浏览器，快照比 HTML 小约 90% <a class="header-anchor" href="#camofox-给-agent-的隐蔽浏览器-快照比-html-小约-90" aria-label="Permalink to &quot;CamoFox：给 Agent 的隐蔽浏览器，快照比 HTML 小约 90%&quot;">&ZeroWidthSpace;</a></h1>
+<p>普通 Playwright / 无头 Chrome 容易被指纹和机器人检测拦住；整页 HTML 塞进模型又贵又吵。<a href="https://github.com/jo-inc/camofox-browser" target="_blank" rel="noopener noreferrer">CamoFox</a>（jo-inc，MIT，截至 2026-10-25 约 <strong>11,892</strong> star）把 <a href="https://camoufox.com" target="_blank" rel="noopener noreferrer">Camoufox</a>（C++ 层指纹伪装的 Firefox）包成面向 Agent 的 REST 服务：<strong>无障碍树快照 + 稳定元素引用（e1、e2…）</strong>。官方写明快照大约比原始 HTML 小 <strong>90%</strong>。</p>
+<p>X 上 <a href="https://x.com/0xrux/status/2113957254307196963" target="_blank" rel="noopener noreferrer">@0xrux</a> 也提到过它；步骤以 GitHub README 为准。</p>
+<h2 id="三步上手" tabindex="-1">三步上手 <a class="header-anchor" href="#三步上手" aria-label="Permalink to &quot;三步上手&quot;">&ZeroWidthSpace;</a></h2>
+<div class="steps">
+<ol>
+<li><strong>Node ≥ 22</strong>，然后：<code>git clone https://github.com/jo-inc/camofox-browser &amp;&amp; cd camofox-browser &amp;&amp; npm install --omit=dev &amp;&amp; npm start</code> → <code>http://127.0.0.1:9377</code>（第一次会下载约几百 MB 的浏览器包）。</li>
+<li><strong>健康检查</strong>：<code>curl -s http://127.0.0.1:9377/health</code>，看到 <code>ok: true</code> 和 <code>engine: camoufox</code> 再往下。</li>
+<li><strong>开标签拿快照</strong>：<code>POST /tabs</code> 带 <code>userId</code>、<code>sessionKey</code>、<code>url</code>；再 <code>GET /tabs/:tabId/snapshot?userId=...</code>。完整命令、Cookie、代理和避坑见 <a href="/cases/camofox.html">/cases/camofox</a>。</li>
+</ol>
+</div>
+<h2 id="wangxxxl-实测于-2026-10-25-utc-8" tabindex="-1">WANGXXXL 实测于 2026-10-25（UTC+8） <a class="header-anchor" href="#wangxxxl-实测于-2026-10-25-utc-8" aria-label="Permalink to &quot;WANGXXXL 实测于 2026-10-25（UTC+8）&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>环境：Linux，Node 22.20.0，包版本 1.18.1。</li>
+<li><code>GET /health</code> 正常；打开 <code>https://example.com</code> 返回 <code>httpStatus: 200</code>；快照约 <strong>1052</strong> 字符，带可点击 <code>[e1]</code>。</li>
+<li>未测：真实 Cloudflare 挑战通过率、Cookie 导入、Docker。</li>
+</ul>
+<h2 id="注意" tabindex="-1">注意 <a class="header-anchor" href="#注意" aria-label="Permalink to &quot;注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>Cookie 导入默认关闭，要设 <code>CAMOFOX_API_KEY</code>。</li>
+<li>Issues 里常见原生内存上涨和偶发导航挂起：控制会话数，用完关掉 session。</li>
+<li>只用于你有权访问的站点；能绕过检测 ≠ 可以违规抓站。</li>
+</ul>
+<p>完整安装、API 示例和避坑：<a href="/cases/camofox.html">CamoFox 案例页</a>。</p>
+]]></content:encoded>
+            <category>好项目</category>
+            <category>GitHub 高星项目</category>
+            <category>AI 工具</category>
+            <category>浏览器自动化</category>
+            <category>实测</category>
+        </item>
+        <item>
+            <title><![CDATA[HarnessRouter：一个 Docker 容器统一接入多种编程 Agent 框架]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-25-harnessrouter</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-25-harnessrouter</guid>
+            <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[HarnessRouter Community Edition（Apache-2.0，约 3.3 千星）用一个容器把 Codex、Claude Code、Hermes、DeepSeek Harness、Grok Build 等接到同一套 Agent API；密钥和状态留在你自己的机器上。本机无 Docker，步骤按官方文档整理，未做实测。]]></description>
+            <content:encoded><![CDATA[<h1 id="harnessrouter-一个-docker-容器统一接入多种编程-agent-框架" tabindex="-1">HarnessRouter：一个 Docker 容器统一接入多种编程 Agent 框架 <a class="header-anchor" href="#harnessrouter-一个-docker-容器统一接入多种编程-agent-框架" aria-label="Permalink to &quot;HarnessRouter：一个 Docker 容器统一接入多种编程 Agent 框架&quot;">&ZeroWidthSpace;</a></h1>
+<p>如果你在做 Agent 产品，或想在同一套后端里切换 <strong>Codex / Claude Code / Hermes / DeepSeek Harness</strong> 等编程框架，每接一个就要改一轮会话、流式、文件和取消逻辑。<a href="https://harnessrouter.ai/open-source" target="_blank" rel="noopener noreferrer">HarnessRouter Community Edition</a>（仓库 <a href="https://github.com/HarnessRouter/harnessrouter" target="_blank" rel="noopener noreferrer">HarnessRouter/harnessrouter</a>，Apache-2.0，截至 2026-10-25 约 <strong>3,335</strong> star）的卖点是：<strong>一个 Docker 容器 + 一套 Agent API</strong>，在你自己的机器上跑，密钥、状态和文件留在本地。</p>
+<p>官方 open-source 页写明可接入的框架里包含 Codex、Claude Code、Hermes、Pi、DeepSeek Harness，以及列表中的 <strong>Grok Build（SpaceXAI）</strong> 等。这里的「Grok Build」是他们 harness 列表里的一个 <strong>harness_id</strong>，<strong>不是</strong>「给 Grok Bot 装了官方原生升级」。X 上有帖子把它和 Grok Bot 连着说，以 <a href="https://harnessrouter.ai/open-source" target="_blank" rel="noopener noreferrer">harnessrouter.ai/open-source</a> 为准，别被标题带跑。</p>
+<div class="tip custom-block"><p class="custom-block-title">本机说明</p>
+<p>写稿用的这台云电脑<strong>没有 Docker</strong>，下面命令来自官方文档，<strong>未做 WANGXXXL 实测</strong>。你需要本机或服务器已安装 Docker。完整案例页今天先不写，等有环境再补。</p>
+</div>
+<h2 id="官方快速启动-需-docker" tabindex="-1">官方快速启动（需 Docker） <a class="header-anchor" href="#官方快速启动-需-docker" aria-label="Permalink to &quot;官方快速启动（需 Docker）&quot;">&ZeroWidthSpace;</a></h2>
+<div class="steps">
+<ol>
+<li>拉镜像：<code>docker pull harnessrouter/harnessrouter</code></li>
+<li>只绑本机端口并设控制台密码后启动（密码请换成自己的强密码）：</li>
+<li>看日志确认起来：<code>docker logs -f harnessrouter</code>，浏览器打开 <code>http://localhost:3000</code></li>
+</ol>
+</div>
+<div class="language-sh vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">docker</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> run</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> -d</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> --name</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> harnessrouter</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -p</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 127.0.0.1:3000:3000</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -v</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> harnessrouter:/data</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -e</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> HR_AUTH_PASSWORD='change-me'</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">  harnessrouter/harnessrouter</span></span></code></pre>
+</div><p>登录拿 Cookie 后，按官方示例打统一接口（把 <code>YOUR_PASSWORD</code>、<code>YOUR_HARNESS_ID</code> 换成你的）：</p>
+<div class="language-sh vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> -c</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> hr.cookies</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> localhost:3000/api/selfhost/login</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -H</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'content-type: application/json'</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -d</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> '{"username":"harnessrouter","password":"YOUR_PASSWORD"}'</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0">curl</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> -b</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> hr.cookies</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> localhost:3000/api/harness/v1/responses</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -H</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> 'content-type: application/json'</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> \</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">  -d</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> '{</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    "input": "Summarize this repo",</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    "metadata": { "harness_id": "YOUR_HARNESS_ID" },</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">    "stream": true</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">  }'</span></span></code></pre>
+</div><p>官方说明：Gateway、Runner、Console 打在同一容器里，本地用 SQLite 和工作区卷，不强制托管数据库或云账号。协议侧实现 Unified Harness Protocol（UHP），并写明与 OpenAI Responses API 兼容——具体字段以他们 OpenAPI 为准，这里不编造未展示的参数。</p>
+<h2 id="适合谁-不适合谁" tabindex="-1">适合谁 / 不适合谁 <a class="header-anchor" href="#适合谁-不适合谁" aria-label="Permalink to &quot;适合谁 / 不适合谁&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>适合</strong>：已经在对比多种 coding agent 框架，或产品后端想「集成一次、按任务换 harness」的人。</li>
+<li><strong>不适合</strong>：没有 Docker、只想在聊天 App 里随便问问的人；也不要把第三方 harness 列表理解成某家 Bot 的官方插件市场。</li>
+</ul>
+<h2 id="注意" tabindex="-1">注意 <a class="header-anchor" href="#注意" aria-label="Permalink to &quot;注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>把 <code>HR_AUTH_PASSWORD</code> 设成强密码，端口绑定 <code>127.0.0.1</code>，不要裸奔公网。</li>
+<li>各 harness 仍要你自己的上游密钥与配额，Router 不替你免费用模型。</li>
+<li>Starter Kit（幻灯片/表格等模板）另有许可证条款，以仓库说明为准；Community Edition 主体是 Apache-2.0。</li>
+</ul>
+<p>资料入口：<a href="https://harnessrouter.ai/open-source" target="_blank" rel="noopener noreferrer">官方开源页</a> · <a href="https://github.com/HarnessRouter/harnessrouter" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+]]></content:encoded>
+            <category>好项目</category>
+            <category>GitHub 高星项目</category>
+            <category>Agent</category>
+            <category>自托管</category>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek 新版在 Qoder 里限免到 10/24：免费账号也能用，选上就用]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-22-qoder-deepseek-free</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-22-qoder-deepseek-free</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Qoder 官方 10 月 19 日宣布 DeepSeek V4.1-Flash-1017 免费用到 10/24 23:59（UTC+8），免费账号和已订阅账号都按 0 倍计费、不用领取。两步上手，外加两个顺手能用的官方活动。]]></description>
+            <content:encoded><![CDATA[<h1 id="deepseek-新版在-qoder-里限免到-10-24-免费账号也能用-选上就用" tabindex="-1">DeepSeek 新版在 Qoder 里限免到 10/24：免费账号也能用，选上就用 <a class="header-anchor" href="#deepseek-新版在-qoder-里限免到-10-24-免费账号也能用-选上就用" aria-label="Permalink to &quot;DeepSeek 新版在 Qoder 里限免到 10/24：免费账号也能用，选上就用&quot;">&ZeroWidthSpace;</a></h1>
+<p>Qoder 官方账号 <a href="https://x.com/qoder_ai_ide/status/2112211366954344459" target="_blank" rel="noopener noreferrer">@qoder_ai_ide</a> 在 10 月 19 日发帖：<strong>DeepSeek V4.1-Flash-1017 免费用到 10 月 24 日，免费账号和已订阅账号都是 0 倍计费，选上就能用</strong>。不用报名、不用领券，也不扣 Credits。</p>
+<div class="tip custom-block"><p class="custom-block-title">截止时间</p>
+<p><strong>10/24 23:59（UTC+8）</strong> 结束。之后恢复平时的 0.1 倍计费。</p>
+</div>
+<h2 id="两步上手" tabindex="-1">两步上手 <a class="header-anchor" href="#两步上手" aria-label="Permalink to &quot;两步上手&quot;">&ZeroWidthSpace;</a></h2>
+<div class="steps">
+<ol>
+<li>打开 <a href="https://qoder.com/" target="_blank" rel="noopener noreferrer">qoder.com</a> 下载客户端，注册个人账号。</li>
+<li>在对话框的模型列表里选 <strong>DeepSeek-Flash</strong>（即 V4.1-Flash-1017）。官方文档里写的是平时的 0.1×，活动期间按 0× 计费。</li>
+</ol>
+</div>
+<p>选好之后，拿一个真实项目跑一遍：改个 bug、补几个测试、读一遍陌生代码库，比随手问两句更能看出它适不适合你。</p>
+<h2 id="顺手再用两个官方活动" tabindex="-1">顺手再用两个官方活动 <a class="header-anchor" href="#顺手再用两个官方活动" aria-label="Permalink to &quot;顺手再用两个官方活动&quot;">&ZeroWidthSpace;</a></h2>
+<p><strong>① Qwen3.8-Flash 也在限免。</strong> 按 <a href="https://docs.qoder.com/zh/events/flashoffer" target="_blank" rel="noopener noreferrer">官方文档</a>，Qwen3.8-Flash 目前仍免费，结束时间官方待公布；账户余额为 0 也能用。</p>
+<p><strong>② 每天领 100 Credits。</strong> 按 <a href="https://docs.qoder.com/zh/events/100credits" target="_blank" rel="noopener noreferrer">官方文档</a>，Qoder 国际版的个人账号可以在桌面客户端里每天领一次：</p>
+<div class="steps">
+<ol>
+<li>点客户端左下角的<strong>用量面板</strong>。</li>
+<li>点<strong>礼物图标</strong>领取 100 Credits。</li>
+</ol>
+</div>
+<ul>
+<li>每天 10:00（UTC+8）开放领取，每次领到的 Credits 有效期 30 天。</li>
+<li>官方说明里提到，部分账号因为风控<strong>可能看不到礼物图标</strong>。看不到就是没有这个入口，不影响上面 DeepSeek 和 Qwen 的限免。</li>
+</ul>
+<h2 id="注意" tabindex="-1">注意 <a class="header-anchor" href="#注意" aria-label="Permalink to &quot;注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>0 倍计费只针对官方公告里的 DeepSeek V4.1-Flash-1017。跑之前在模型列表里确认选中的是它。</li>
+<li>活动规则以 Qoder 官方公告和文档为准，截止前如有调整，以官方最新说明为准。</li>
+</ul>
+<p>一分钟视频版见 <a href="/videos.html">视频演示 · 每日一招</a>。</p>
+]]></content:encoded>
+            <category>新闻简报</category>
+            <category>AI 编程</category>
+            <category>限免活动</category>
+            <category>DeepSeek</category>
+        </item>
+        <item>
+            <title><![CDATA[用量不经花？让 Bot 当工头，别当苦力：三层分工法]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-21-bot-as-foreman</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-21-bot-as-foreman</guid>
+            <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[例程先做一步便宜的检查，机械的活写成脚本，定型的重活外包给 CLI 编程助手，Bot 只管判断、派活和验收。附一段让 Bot 自查例程的提示词。]]></description>
+            <content:encoded><![CDATA[<h1 id="用量不经花-让-bot-当工头-别当苦力-三层分工法" tabindex="-1">用量不经花？让 Bot 当工头，别当苦力：三层分工法 <a class="header-anchor" href="#用量不经花-让-bot-当工头-别当苦力-三层分工法" aria-label="Permalink to &quot;用量不经花？让 Bot 当工头，别当苦力：三层分工法&quot;">&ZeroWidthSpace;</a></h1>
+<p>这两天 X 上&quot;Grok Bot 不经花&quot;的抱怨很多。几位重度用户不约而同给出了同一个思路：<strong>Bot 最值钱的是判断、连接各种 App 和跟你沟通，不是闷头干体力活</strong>。体力活交出去，Bot 只派活、验收。</p>
+<p>下面按&quot;从最省事到最费事&quot;排成三层，从第一层做起就有效果。</p>
+<h2 id="第一层-给每个例程加一步-便宜的检查" tabindex="-1">第一层：给每个例程加一步&quot;便宜的检查&quot; <a class="header-anchor" href="#第一层-给每个例程加一步-便宜的检查" aria-label="Permalink to &quot;第一层：给每个例程加一步&quot;便宜的检查&quot;&quot;">&ZeroWidthSpace;</a></h2>
+<p><a href="https://x.com/MikeysMolecules/status/2112274232444850331" target="_blank" rel="noopener noreferrer">@MikeysMolecules</a> 的建议：例程在调研、写稿、出图之前，<strong>先检查一下有没有新东西，没有就安静结束</strong>。平淡的日子里，大部分运行到这一步就停了，省下的就是这些。</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>修改"竞品动态"例程：第一步只检查 A、B、C 三家的更新页和官方账号，</span></span>
+<span class="line"><span>和上次运行记录比，没有新内容就回复一句"今日无更新"后结束，不要继续调研和写稿。</span></span>
+<span class="line"><span>有新内容才进入后面的步骤。</span></span></code></pre>
+</div><h2 id="第二层-能写成脚本的-就别让-ai-每次重想" tabindex="-1">第二层：能写成脚本的，就别让 AI 每次重想 <a class="header-anchor" href="#第二层-能写成脚本的-就别让-ai-每次重想" aria-label="Permalink to &quot;第二层：能写成脚本的，就别让 AI 每次重想&quot;">&ZeroWidthSpace;</a></h2>
+<p><a href="https://x.com/eze_is_1/status/2109850538045264151" target="_blank" rel="noopener noreferrer">@eze_is_1</a> 在他的 10 条经验里举的例子：「每天去某个网站读一个数，跟前一天比有没有变化」，这种事根本不需要 AI 每次去想，<strong>写成一个普通脚本定时跑，只把变化的部分交给 Bot</strong>。</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>把"每天查 X 价格"这件事改成脚本：你写一个 Python 脚本，抓数、和昨天比、</span></span>
+<span class="line"><span>把结果追加到 data/prices.csv。脚本每天 8:00 跑，只有变化超过 5% 时才通知你，</span></span>
+<span class="line"><span>你再来分析和告诉我。脚本写好先跑一次给我看输出。</span></span></code></pre>
+</div><p>规则一旦定型，脚本每次都一样，不会&quot;今天理解偏了&quot;，也几乎不花 Bot 的用量。</p>
+<h2 id="第三层-定型的重活-外包给-cli-编程助手" tabindex="-1">第三层：定型的重活，外包给 CLI 编程助手 <a class="header-anchor" href="#第三层-定型的重活-外包给-cli-编程助手" aria-label="Permalink to &quot;第三层：定型的重活，外包给 CLI 编程助手&quot;">&ZeroWidthSpace;</a></h2>
+<p>已经跑顺、有明确验收标准的活（批量改文件、写代码、长文档初稿），可以让 Bot 在电脑上调用 Codex CLI、Claude Code 这类命令行编程助手去做，<strong>用的是你在那边的订阅或 API 额度</strong>。Bot 只负责写清任务、派出去、验收结果。</p>
+<p>两个现成的开源做法：</p>
+<ul>
+<li><a href="https://github.com/robbin/grokbot-local-agent" target="_blank" rel="noopener noreferrer">robbin/grokbot-local-agent</a>（<a href="https://x.com/fankaishuoai/status/2112396515801284647" target="_blank" rel="noopener noreferrer">@fankaishuoai</a> 分享）：让 Bot 把活交给它云电脑上的 Pi 编程助手。每个任务有编号、状态和产物文件，<strong>以磁盘上的状态为准</strong>，通知漏了也能补查，不会重复跑。作者自己用三层：Grok Bot 负责沟通、编排和验收；Pi 做批量修改、小脚本和初稿；更大的长期项目交给云端编程 Agent。</li>
+<li><a href="/daily/2026-10-21-wake-on-done.html">Wake on Done</a>：任务跑完自动叫醒派活的 Bot，不用它反复去看。</li>
+</ul>
+<p>派活时一定写清<strong>交付物和验收标准</strong>，比如&quot;结果写到哪个文件、测试要全过、diff 里不许动哪些目录&quot;。验收是 Bot 必须亲自做的那一步。</p>
+<h2 id="什么留给-bot-自己做" tabindex="-1">什么留给 Bot 自己做 <a class="header-anchor" href="#什么留给-bot-自己做" aria-label="Permalink to &quot;什么留给 Bot 自己做&quot;">&ZeroWidthSpace;</a></h2>
+<table tabindex="0">
+<thead>
+<tr>
+<th>留给 Bot</th>
+<th>交出去</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>跟你沟通、追问需求</td>
+<td>规则固定的抓数、比对</td>
+</tr>
+<tr>
+<td>用连接器读写邮箱、日历、文档</td>
+<td>批量改文件、写代码、跑测试</td>
+</tr>
+<tr>
+<td>拿不准的判断、需要审批的动作</td>
+<td>已有模板的长文初稿</td>
+</tr>
+<tr>
+<td>最后的验收和汇报</td>
+<td>耗时的构建、抓取</td>
+</tr>
+</tbody>
+</table>
+<h2 id="先让-bot-自查一遍" tabindex="-1">先让 Bot 自查一遍 <a class="header-anchor" href="#先让-bot-自查一遍" aria-label="Permalink to &quot;先让 Bot 自查一遍&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>检查我所有 Bot 的所有例程，逐个列出：频率、每次大概做哪些步骤、</span></span>
+<span class="line"><span>有没有"先检查有没有新内容"这一步、哪些步骤其实可以改成脚本。</span></span>
+<span class="line"><span>给出合并、降频、加检查步骤的建议，按预计省得多少排序。先出方案，等我确认再改。</span></span></code></pre>
+</div><h2 id="注意" tabindex="-1">注意 <a class="header-anchor" href="#注意" aria-label="Permalink to &quot;注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>外部 CLI 工具要用你自己的账号登录，遵守那边的服务条款；<strong>登录凭证放在共用的云电脑上，所有 Bot 都能用到</strong>。</li>
+<li>交出去的活出了错，Bot 要能看到。所以第三层一定配合验收标准和&quot;跑完叫醒&quot;一起用，别让任务有去无回。</li>
+</ul>
+]]></content:encoded>
+            <category>方法论</category>
+            <category>用量</category>
+            <category>例程</category>
+            <category>自动化</category>
+            <category>多 Bot</category>
+        </item>
+        <item>
+            <title><![CDATA[iPhone 侧边的操作按钮，现在一按就能和 Bot 语音对话]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-21-iphone-action-button</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-21-iphone-action-button</guid>
+            <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[官方 10 月 20 日（UTC+8）宣布 Grok Bot 可以绑定到 iPhone 操作按钮。30 秒设置步骤、没有操作按钮的机型怎么办，以及按下去之后最值得说的几句话。]]></description>
+            <content:encoded><![CDATA[<h1 id="iphone-侧边的操作按钮-现在一按就能和-bot-语音对话" tabindex="-1">iPhone 侧边的操作按钮，现在一按就能和 Bot 语音对话 <a class="header-anchor" href="#iphone-侧边的操作按钮-现在一按就能和-bot-语音对话" aria-label="Permalink to &quot;iPhone 侧边的操作按钮，现在一按就能和 Bot 语音对话&quot;">&ZeroWidthSpace;</a></h1>
+<p>官方账号 <a href="https://x.com/bot/status/2112252507762368684" target="_blank" rel="noopener noreferrer">@bot</a> 在 10 月 20 日凌晨（UTC+8）发帖：<strong>Grok Bot 可以设成 iPhone 的操作按钮（Action Button），按一下就开始和 Bot 语音聊天</strong>。这条帖子一天内浏览量接近 190 万，是这两天 Grok Bot 讨论最多的话题。</p>
+<p>它的意义不在&quot;又多一个入口&quot;：以前想交代一件事，要解锁、找 App、点语音；现在走路、开车、手里拿着东西时，<strong>按住侧键说一句话，事情就交出去了</strong>，Bot 在云电脑上做完再把结果放回对话里。</p>
+<h2 id="_30-秒设置" tabindex="-1">30 秒设置 <a class="header-anchor" href="#_30-秒设置" aria-label="Permalink to &quot;30 秒设置&quot;">&ZeroWidthSpace;</a></h2>
+<div class="steps">
+<ol>
+<li><strong>更新 Grok Bot App</strong>：App Store 上的 Grok Bot 1.16.0 于 10 月 18 日发布。注意要更新的是 <strong>Grok Bot</strong>，不是 Grok 聊天 App。更新后先打开一次。</li>
+<li>打开 iPhone 的 <strong>设置 → 操作按钮</strong>，左右滑到 <strong>快捷指令</strong>。</li>
+<li>点 <strong>选取快捷指令</strong>，搜索 &quot;Grok Bot&quot;，选 <strong>Start Voice Chat</strong>。</li>
+<li>回到桌面，按住侧边的操作按钮试一下。</li>
+</ol>
+</div>
+<p><strong>列表里搜不到 Grok Bot？</strong> 官方 @grok 账号的回复是：这个选项只有在 Grok Bot App 更新后才会出现。先确认版本，再把 App 打开一次。</p>
+<p>操作按钮是 iPhone 15 Pro 及之后部分机型才有的硬件按钮。手机系统要求按官方文档是 iOS 18 及以上。</p>
+<h2 id="没有操作按钮也能用" tabindex="-1">没有操作按钮也能用 <a class="header-anchor" href="#没有操作按钮也能用" aria-label="Permalink to &quot;没有操作按钮也能用&quot;">&ZeroWidthSpace;</a></h2>
+<p>只要你的快捷指令 App 里能搜到 Grok Bot 的 Start Voice Chat，下面两种系统自带的办法也能做到&quot;一下就叫出来&quot;：</p>
+<ul>
+<li><strong>轻点背面</strong>：设置 → 辅助功能 → 触控 → 轻点背面 → 选&quot;轻点两下&quot;，指定一个运行 Start Voice Chat 的快捷指令。</li>
+<li><strong>嘿 Siri + 快捷指令名</strong>：在快捷指令 App 里新建一个快捷指令，只放 Start Voice Chat 这一个动作，名字起成好念的短词，比如&quot;叫 Bot&quot;。之后对 Siri 说这个名字就会运行它。</li>
+</ul>
+<p>已经把操作按钮给了手电筒、相机的，可以新建一个快捷指令，用&quot;从菜单中选取&quot;放两个选项（手电筒、Grok Bot 语音），再把操作按钮绑到这个快捷指令上。</p>
+<h2 id="按下去之后-说什么最值" tabindex="-1">按下去之后，说什么最值 <a class="header-anchor" href="#按下去之后-说什么最值" aria-label="Permalink to &quot;按下去之后，说什么最值&quot;">&ZeroWidthSpace;</a></h2>
+<p>语音最适合<strong>交代</strong>，不适合<strong>审阅</strong>。按下按钮说完就放手，结果回到电脑上再看。几句可以直接说的：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>记一下：明天上午十点前给李总回电话，问合同第三条改没改。到时间提醒我。</span></span></code></pre>
+</div><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>帮我查一下这周六下午附近能订到的羽毛球场，列三个选项，先别下单。</span></span></code></pre>
+</div><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>刚才开会说的三件事：报价单周三前发、样品周五到、下周一复盘。整理成待办发我，别发给任何人。</span></span></code></pre>
+</div><h2 id="注意" tabindex="-1">注意 <a class="header-anchor" href="#注意" aria-label="Permalink to &quot;注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>语音交代的事一样会走审批</strong>：发消息、下单、删除这类不可逆的动作，Bot 仍然会先出卡片等你点头，不会因为你是用语音说的就直接执行。</li>
+<li>在车上用，请用免提和车载蓝牙，别低头看屏幕。</li>
+<li>官方更新日志（0.71.2）写到：语音聊天断线后会自动重连、接着同一段对话，信号差的地方不用从头再说。</li>
+</ul>
+<p>延伸阅读：<a href="/faq/faq.html">常见问题 · 能用语音吗</a>。</p>
+]]></content:encoded>
+            <category>新闻简报</category>
+            <category>手机</category>
+            <category>语音</category>
+            <category>版本更新</category>
+        </item>
+        <item>
+            <title><![CDATA[刷 X 看到好帖，回复一句「@bot」就把它交给你的 Bot]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-21-tag-bot-on-x</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-21-tag-bot-on-x</guid>
+            <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[在 X 上回复帖子时 @bot，帖子连同你的要求会直接变成你主 Bot 的任务。开通条件、5 句好用的写法，以及 @bot 不回你时逐条排查。]]></description>
+            <content:encoded><![CDATA[<h1 id="刷-x-看到好帖-回复一句「-bot」就把它交给你的-bot" tabindex="-1">刷 X 看到好帖，回复一句「@bot」就把它交给你的 Bot <a class="header-anchor" href="#刷-x-看到好帖-回复一句「-bot」就把它交给你的-bot" aria-label="Permalink to &quot;刷 X 看到好帖，回复一句「@bot」就把它交给你的 Bot&quot;">&ZeroWidthSpace;</a></h1>
+<p>刷到一条值得研究的帖子：一份工具清单、一篇长教程、一个新发布的项目。以前要复制链接、打开 Grok Bot、粘贴、再交代要做什么。现在<strong>直接在那条帖子下面回复 <code>@bot</code> 加一句要求</strong>就行。</p>
+<p>按<a href="https://docs.x.ai/grok-bot/tag-on-x" target="_blank" rel="noopener noreferrer">官方文档</a>：@bot 会在 X 上回一句短话，确认已经交给你的 Grok Bot；<strong>你的主 Bot 随即在云电脑上开工，过程和结果都留在 Grok Bot App 的对话里</strong>，不会公开发在 X 上。</p>
+<h2 id="bot-能拿到什么" tabindex="-1">Bot 能拿到什么 <a class="header-anchor" href="#bot-能拿到什么" aria-label="Permalink to &quot;Bot 能拿到什么&quot;">&ZeroWidthSpace;</a></h2>
+<p>你的这条回复、你回复的那条帖子，以及两者引用的帖子（包括里面的图片）。所以<strong>直接回复在原帖下面</strong>效果最好，不用另外贴链接。</p>
+<h2 id="开通前要满足的条件" tabindex="-1">开通前要满足的条件 <a class="header-anchor" href="#开通前要满足的条件" aria-label="Permalink to &quot;开通前要满足的条件&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>在 grok.com 的 <strong>设置 → Account</strong> 里，把你的 X 账号连到 Grok 账号（点 𝕏 Account 旁边的 Connect）。</li>
+<li>同一个 Grok 账号开通了 Grok Bot，并且<strong>至少有一个你自己的 Bot</strong>。别人分享给你的 Bot 接不了这类任务。</li>
+<li>第一次成功时，X 会提醒你：这类请求会自动开工，用的是你的 Grok Bot 用量。</li>
+<li>X 插件（搜帖子、读时间线）不是必需的，没装也能转交。</li>
+</ul>
+<h2 id="_5-句好用的写法" tabindex="-1">5 句好用的写法 <a class="header-anchor" href="#_5-句好用的写法" aria-label="Permalink to &quot;5 句好用的写法&quot;">&ZeroWidthSpace;</a></h2>
+<p>回复时 <code>@bot</code> 后面直接写要求，越具体越好：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>@bot 把这条帖子里提到的工具逐个查一下：官网、开源许可证、最近一次更新时间，做成表格放到我的资料库，别关注任何人</span></span></code></pre>
+</div><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>@bot 这个串讲的方法帮我用到我的周报例程上，先给我改动方案，别直接改</span></span></code></pre>
+</div><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>@bot 读完这篇长文，提炼 5 条我能照着做的步骤，每条附原文对应段落</span></span></code></pre>
+</div><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>@bot 这个 GitHub 项目帮我评估一下：能不能装在你的电脑上用、要哪些权限、有没有风险。先别安装</span></span></code></pre>
+</div><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>@bot 这条帖子说的省用量的办法，对照检查我现在的例程，列出可以合并或降低频率的，等我确认再改</span></span></code></pre>
+</div><p>最后一句有真实用例：<a href="https://x.com/AiBraders/status/2112133162495050227" target="_blank" rel="noopener noreferrer">@AiBraders</a> 在一条讲省用量的帖子下 @bot，Bot 读完后检查了他所有的 Bot，删减了 4 个例程。我们建议加上&quot;等我确认再改&quot;，改例程这种事先看方案更稳。</p>
+<h2 id="bot-不回你-逐条查" tabindex="-1">@bot 不回你？逐条查 <a class="header-anchor" href="#bot-不回你-逐条查" aria-label="Permalink to &quot;@bot 不回你？逐条查&quot;">&ZeroWidthSpace;</a></h2>
+<p>官方说明：<strong>@bot 没回复，就说明你的 Bot 没收到</strong>。常见原因：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th>情况</th>
+<th>怎么办</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你的 X 账号登记的国家或地区暂不支持（目前不支持澳大利亚、英国、欧盟、冰岛、列支敦士登、挪威；X 只登记了大区或没有登记国家的也不行）</td>
+<td>只看 X 记录的账号所在地，<strong>换 VPN、换位置都没用</strong></td>
+</tr>
+<tr>
+<td>你回复的串里已经有人 @bot，但你自己没写 @bot</td>
+<td>自己再写一次 <code>@bot</code></td>
+</tr>
+<tr>
+<td>同一条里还 @ 了 @grok</td>
+<td>去掉 @grok 再发</td>
+</tr>
+<tr>
+<td>你的帖子、被回复的帖子或被引用的帖子里有视频或 GIF</td>
+<td>换一条不带视频的帖子，或把链接发到 App 里</td>
+</tr>
+<tr>
+<td>内容没通过平台审核</td>
+<td>换个说法</td>
+</tr>
+<tr>
+<td>Grok Bot 没连到 Grok 账号，或本周用量用完</td>
+<td>去 App 里确认</td>
+</tr>
+</tbody>
+</table>
+<p>@bot 回的是 &quot;Sign up for Grok Bot&quot; 说明 X 账号没连 Grok 账号；回 &quot;Grok Bot isn't set up yet&quot; 说明连上了，但你还没有自己的 Bot，先去 App 里建一个。</p>
+<h2 id="注意" tabindex="-1">注意 <a class="header-anchor" href="#注意" aria-label="Permalink to &quot;注意&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>@bot 的回复是公开的</strong>，但只有一句确认，你的要求本身也是公开回复。别在回复里写私人信息，具体要求可以简短写，细节到 App 里补。</li>
+<li>转交的任务和你在 App 里交代的一样，发消息、下单、删除之类照样先出审批卡片。</li>
+</ul>
+]]></content:encoded>
+            <category>使用技巧</category>
+            <category>X</category>
+            <category>连接器</category>
+            <category>故障排查</category>
+        </item>
+        <item>
+            <title><![CDATA[Wake on Done：Bot 派出去的长任务一跑完，自动把它叫醒]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-21-wake-on-done</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-21-wake-on-done</guid>
+            <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bot 让 Codex、Claude Code 或脚本在后台跑长任务时，结束了它并不知道，只能反复去看、白烧用量。这个开源技能用一个「转发 Bot」加 Webhook 例程解决，一句话安装。]]></description>
+            <content:encoded><![CDATA[<h1 id="wake-on-done-bot-派出去的长任务一跑完-自动把它叫醒" tabindex="-1">Wake on Done：Bot 派出去的长任务一跑完，自动把它叫醒 <a class="header-anchor" href="#wake-on-done-bot-派出去的长任务一跑完-自动把它叫醒" aria-label="Permalink to &quot;Wake on Done：Bot 派出去的长任务一跑完，自动把它叫醒&quot;">&ZeroWidthSpace;</a></h1>
+<h2 id="它解决什么问题" tabindex="-1">它解决什么问题 <a class="header-anchor" href="#它解决什么问题" aria-label="Permalink to &quot;它解决什么问题&quot;">&ZeroWidthSpace;</a></h2>
+<p>越来越多人让 Bot 当&quot;工头&quot;：把写代码、跑构建、批量抓取这类耗时的活，交给云电脑或自己电脑上的 Codex CLI、Claude Code、脚本去跑。问题是<strong>后台任务结束时不会通知 Bot</strong>，结果只有两种：</p>
+<ul>
+<li>Bot 每隔几分钟去看一眼，<strong>每看一次都在花用量</strong>；</li>
+<li>或者一直等，等到你问一句&quot;好了没&quot;才回去看。</li>
+</ul>
+<p><a href="https://github.com/eze-is/eze-grokbot/tree/main/wake-on-done" target="_blank" rel="noopener noreferrer">Wake on Done</a> 是 <a href="https://x.com/eze_is_1/status/2108856871948042652" target="_blank" rel="noopener noreferrer">@eze_is_1</a> 开源的一个 Grok Bot 技能，专门补这个缺口。</p>
+<h2 id="原理-看懂再装" tabindex="-1">原理（看懂再装） <a class="header-anchor" href="#原理-看懂再装" aria-label="Permalink to &quot;原理（看懂再装）&quot;">&ZeroWidthSpace;</a></h2>
+<p>Grok Bot 能被外部事件叫醒的入口是<strong>例程的 Webhook 触发</strong>，但每个 Bot 的 Webhook 地址是各自独立的，一个个配很麻烦。作者的办法是：</p>
+<ol>
+<li>只建一个专门的 <strong>「Wake on Done relay」转发 Bot</strong>，只给它配一个 Webhook 例程。</li>
+<li>长任务用脚本 <code>notify-run</code> 包一层启动。任务结束（成功、失败、被中断都算）时，它向这个 Webhook 发一条通知，里面带着<strong>派活 Bot 的 ID</strong>、退出码和最后几百个字的输出。</li>
+<li>转发 Bot 按 ID 把通知转给当初派活的 Bot，那个 Bot 醒来接着验收、汇报。</li>
+</ol>
+<p>配一次，所有 Bot 都能用；云电脑和你注册过的本地电脑都能装。</p>
+<h2 id="怎么装" tabindex="-1">怎么装 <a class="header-anchor" href="#怎么装" aria-label="Permalink to &quot;怎么装&quot;">&ZeroWidthSpace;</a></h2>
+<p>把这句话发给你的主 Bot：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>安装 https://github.com/eze-is/eze-grokbot/tree/main/wake-on-done 这个 skill，并帮我设置好</span></span></code></pre>
+</div><p>按仓库说明，接下来主 Bot 会装好技能、创建「Wake on Done relay」，由 relay 在自己的对话里带你走完设置，<strong>你要做的只有三件事</strong>：批准一张创建例程的卡片；打开例程详情，把 Webhook 地址贴到对话里；把 Webhook 密钥贴进安全输入框（不要贴在聊天里）。在你自己的电脑上安装时，还会弹出命令授权提示。每台电脑装好后会发一条测试通知，收到就算通过。</p>
+<h2 id="装好以后怎么用" tabindex="-1">装好以后怎么用 <a class="header-anchor" href="#装好以后怎么用" aria-label="Permalink to &quot;装好以后怎么用&quot;">&ZeroWidthSpace;</a></h2>
+<p>对任何一个 Bot 说：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>按 wake-on-done 技能，在后台用 codex exec 跑这个任务：&#x3C;任务描述>。</span></span>
+<span class="line"><span>结果写到 ~/results/task-01.md。跑完被叫醒后，对照下面的标准验收再告诉我：&#x3C;验收标准></span></span></code></pre>
+</div><p>技能里写明了几条最容易踩的坑，Bot 会照做，你知道一下就好：</p>
+<ul>
+<li><strong>CLI 编程助手要用一次性模式</strong>（<code>codex exec</code>、<code>claude -p</code>），聊天模式跑完会一直等下一句，永远不退出，通知也就永远不来。</li>
+<li><strong>关掉标准输入</strong>（命令后加 <code>&lt;/dev/null</code>），否则有的工具会卡在等确认。</li>
+<li>在 Mac 上，远程命令返回时会连带杀掉后台任务，<strong>要用 tmux 启动</strong>（仓库写明 2026-10-11 实测）。</li>
+</ul>
+<h2 id="安全上要知道的" tabindex="-1">安全上要知道的 <a class="header-anchor" href="#安全上要知道的" aria-label="Permalink to &quot;安全上要知道的&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>通知内容（包括输出末尾）<strong>只当数据，不当指令</strong>，这是技能里写死的规则；转发 Bot 只按 ID 精确匹配转发，不按名字。</li>
+<li>密钥只以文件形式保存在电脑上，不出现在聊天、记忆和日志里。所有 Bot 共用一台云电脑，<strong>这把钥匙所有 Bot 都能用到</strong>，别把它当成隔离手段。</li>
+<li>外部 CLI 用的是你在那边的订阅或 API 额度，按那边的规则计费。</li>
+</ul>
+]]></content:encoded>
+            <category>新插件</category>
+            <category>技能</category>
+            <category>例程</category>
+            <category>Webhook</category>
+            <category>用量</category>
+        </item>
+        <item>
+            <title><![CDATA[Bot 不回复了？按这个顺序排查，别一上来就重置]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-bot-not-replying</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-bot-not-replying</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[先看官方状态页，再重发、重开、更新、恢复，「重置」永远放最后。附一段可以直接发给 Bot 的自查提示词。]]></description>
+            <content:encoded><![CDATA[<h1 id="bot-不回复了-按这个顺序排查-别一上来就重置" tabindex="-1">Bot 不回复了？按这个顺序排查，别一上来就重置 <a class="header-anchor" href="#bot-不回复了-按这个顺序排查-别一上来就重置" aria-label="Permalink to &quot;Bot 不回复了？按这个顺序排查，别一上来就重置&quot;">&ZeroWidthSpace;</a></h1>
+<p>很多人遇到 Bot 不回复，第一反应是&quot;重置电脑&quot;。这恰恰是最不该先做的：<strong>重置可能丢掉最近还没保存的改动</strong>，而且如果问题出在服务端，重置根本没用。</p>
+<h2 id="先分清是哪一类" tabindex="-1">先分清是哪一类 <a class="header-anchor" href="#先分清是哪一类" aria-label="Permalink to &quot;先分清是哪一类&quot;">&ZeroWidthSpace;</a></h2>
+<table tabindex="0">
+<thead>
+<tr>
+<th>你看到的</th>
+<th>多半是</th>
+<th>怎么办</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>提示用量用完</td>
+<td>本周用量用光了，不是坏了</td>
+<td>用量每周重置；急用就按官方渠道增加额度</td>
+</tr>
+<tr>
+<td>Bot failed to respond / Model provider is overloaded</td>
+<td>临时故障</td>
+<td>等一会儿重发</td>
+</tr>
+<tr>
+<td>一直 Reconnecting / Couldn't Reach Grok Bot's Computer</td>
+<td>云电脑连不上</td>
+<td>按下面的顺序来</td>
+</tr>
+<tr>
+<td>聊天或 Bot 不见了</td>
+<td>多半没被删</td>
+<td>见文末</td>
+</tr>
+</tbody>
+</table>
+<h2 id="排查顺序-从轻到重" tabindex="-1">排查顺序（从轻到重） <a class="header-anchor" href="#排查顺序-从轻到重" aria-label="Permalink to &quot;排查顺序（从轻到重）&quot;">&ZeroWidthSpace;</a></h2>
+<div class="steps">
+<ol>
+<li><strong>看状态页</strong>：打开 <a href="https://status.cursor.com" target="_blank" rel="noopener noreferrer">status.cursor.com</a>，看 Grok Bot 那一行。应用里不显示服务状态，状态页是唯一准的地方。有故障就等它恢复，<strong>这时不要重置、不要重装</strong>。</li>
+<li><strong>重发一次</strong>：状态页正常、只是报错，等一会儿再发。</li>
+<li><strong>完全退出再打开</strong>：不是关窗口，是彻底退出应用。</li>
+<li><strong>更新</strong>：在设置里检查更新，也更新一下 Bot 的电脑。</li>
+<li><strong>恢复（Recover）</strong>：界面提供的恢复选项。</li>
+<li><strong>重置（Reset）</strong>：最后一步。和恢复一样，云电脑连不上时可能丢失最近的改动。</li>
+</ol>
+</div>
+<h2 id="卡在-一直在工作-但没进展" tabindex="-1">卡在&quot;一直在工作&quot;但没进展 <a class="header-anchor" href="#卡在-一直在工作-但没进展" aria-label="Permalink to &quot;卡在&quot;一直在工作&quot;但没进展&quot;">&ZeroWidthSpace;</a></h2>
+<p>先打开电脑预览，看它停在哪一步。最常见的是登录页、验证码或弹窗。直接问它：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>你现在卡在哪一步？截图给我看，并说明需要我做什么。</span></span></code></pre>
+</div><h2 id="聊天或-bot-不见了" tabindex="-1">聊天或 Bot &quot;不见了&quot; <a class="header-anchor" href="#聊天或-bot-不见了" aria-label="Permalink to &quot;聊天或 Bot &quot;不见了&quot;&quot;">&ZeroWidthSpace;</a></h2>
+<p>通常没有被删除。依次检查：完全退出重开 → 换一台设备看看 → 侧边栏底部的 <strong>Hidden Bots</strong>（隐藏的 Bot）→ 确认登录的是同一个账号。<strong>不要用恢复或重置去找</strong>，那不会把它们变回来。</p>
+<h2 id="还不行就联系支持" tabindex="-1">还不行就联系支持 <a class="header-anchor" href="#还不行就联系支持" aria-label="Permalink to &quot;还不行就联系支持&quot;">&ZeroWidthSpace;</a></h2>
+<p>附上账号邮箱、版本信息（账户菜单 → Support → About → Copy version info）、截图和请求 ID（右键消息 → Copy request ID）。</p>
+]]></content:encoded>
+            <category>使用技巧</category>
+            <category>故障排查</category>
+            <category>云电脑</category>
+            <category>用量</category>
+        </item>
+        <item>
+            <title><![CDATA[让 Bot 用自己的邮箱收验证码和订阅，别再占用你的主邮箱]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-bot-own-email</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-bot-own-email</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bot 可以申请一个属于自己的邮箱地址。用它注册网站、收验证码、订阅资讯，再用「名字+标签」分流，主邮箱干干净净。]]></description>
+            <content:encoded><![CDATA[<h1 id="让-bot-用自己的邮箱收验证码和订阅-别再占用你的主邮箱" tabindex="-1">让 Bot 用自己的邮箱收验证码和订阅，别再占用你的主邮箱 <a class="header-anchor" href="#让-bot-用自己的邮箱收验证码和订阅-别再占用你的主邮箱" aria-label="Permalink to &quot;让 Bot 用自己的邮箱收验证码和订阅，别再占用你的主邮箱&quot;">&ZeroWidthSpace;</a></h1>
+<p>从 0.70.2 起，Bot 可以<strong>申请一个属于自己的邮箱地址</strong>并在那里收信；0.71.2 又加上了<strong>带标签的地址</strong>。这件事看起来小，用好了能省很多麻烦。</p>
+<h2 id="它能做什么、不能做什么" tabindex="-1">它能做什么、不能做什么 <a class="header-anchor" href="#它能做什么、不能做什么" aria-label="Permalink to &quot;它能做什么、不能做什么&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>能收信</strong>：网站发来的验证码、登录链接，Bot 可以直接从自己的收件箱里读，不用再来问你。</li>
+<li><strong>发信要你批</strong>：从这个地址发出的邮件默认先变成草稿卡片，你点了发送才会发出。</li>
+<li><strong>能分流</strong>：<code>名字+标签@</code> 形式的地址都能收，<strong>挂在某个标签上的例程只处理发到这个标签的邮件</strong>。</li>
+<li>如果你的团队或账号关闭了这个功能，Bot 会直接告诉你，而不是说&quot;暂时出了问题&quot;。</li>
+</ul>
+<h2 id="第一步-让-bot-申请地址" tabindex="-1">第一步：让 Bot 申请地址 <a class="header-anchor" href="#第一步-让-bot-申请地址" aria-label="Permalink to &quot;第一步：让 Bot 申请地址&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>给你申请一个自己的邮箱地址，用户名用 wangbot-research。</span></span>
+<span class="line"><span>申请前先告诉我完整地址让我确认。</span></span></code></pre>
+</div><p>申请前会有确认卡片，地址一旦申请就不能改，名字想好再定。</p>
+<h2 id="第二步-按用途分标签" tabindex="-1">第二步：按用途分标签 <a class="header-anchor" href="#第二步-按用途分标签" aria-label="Permalink to &quot;第二步：按用途分标签&quot;">&ZeroWidthSpace;</a></h2>
+<table tabindex="0">
+<thead>
+<tr>
+<th>地址</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>名字+signup@…</code></td>
+<td>注册新网站、收验证码</td>
+</tr>
+<tr>
+<td><code>名字+news@…</code></td>
+<td>订阅行业周报、Newsletter</td>
+</tr>
+<tr>
+<td><code>名字+receipt@…</code></td>
+<td>让商家把电子发票、收据发到这里</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第三步-给标签挂例程" tabindex="-1">第三步：给标签挂例程 <a class="header-anchor" href="#第三步-给标签挂例程" aria-label="Permalink to &quot;第三步：给标签挂例程&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>建一个例程：每当 +news 地址收到新邮件，</span></span>
+<span class="line"><span>提炼成 3 条以内要点（每条附原文链接），每天 21:00 汇总发我一次。</span></span>
+<span class="line"><span>不要回复任何邮件，不要点退订链接。</span></span></code></pre>
+</div><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>建一个例程：+receipt 地址每收到一张发票或收据，</span></span>
+<span class="line"><span>把日期、商户、金额、类别追加到"10 月开支"表格里；读不出的金额标红，不要猜。</span></span></code></pre>
+</div><h2 id="注意事项" tabindex="-1">注意事项 <a class="header-anchor" href="#注意事项" aria-label="Permalink to &quot;注意事项&quot;">&ZeroWidthSpace;</a></h2>
+<div class="warning custom-block"><p class="custom-block-title">不要拿它当安全隔离</p>
+<p>所有 Bot 共用一台云电脑，文件和浏览器登录是共享的。Bot 自己的邮箱适合&quot;分流杂事&quot;，不适合存放敏感账号的找回邮件。</p>
+</div>
+<ul>
+<li>用它注册的网站账号，密码依然通过安全表单或接管输入，不要在聊天里发。</li>
+<li>不想每封都审？可以对某个 Bot 选「Disable drafts」让它直接发，但<strong>只建议用在只给你自己发信的 Bot 上</strong>。详见<a href="/basics/drafts-first.html">邮件和消息为什么先出草稿</a>。</li>
+</ul>
+]]></content:encoded>
+            <category>使用技巧</category>
+            <category>邮箱</category>
+            <category>例程</category>
+            <category>连接器</category>
+        </item>
+        <item>
+            <title><![CDATA[登录要验证码时，让 Bot 自己去读]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-codes-from-inbox</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-codes-from-inbox</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[邮箱验证码 Bot 现在会自己从已连接的 Gmail、Outlook 或它自己的邮箱里读；短信验证码可以让它在你自己的 Mac 上读。人机验证失败两次就停，交给你。]]></description>
+            <content:encoded><![CDATA[<h1 id="登录要验证码时-让-bot-自己去读" tabindex="-1">登录要验证码时，让 Bot 自己去读 <a class="header-anchor" href="#登录要验证码时-让-bot-自己去读" aria-label="Permalink to &quot;登录要验证码时，让 Bot 自己去读&quot;">&ZeroWidthSpace;</a></h1>
+<h2 id="技巧" tabindex="-1">技巧 <a class="header-anchor" href="#技巧" aria-label="Permalink to &quot;技巧&quot;">&ZeroWidthSpace;</a></h2>
+<ol>
+<li><strong>邮箱验证码</strong>：官方更新日志（v0.70.2）写明，网站登录时如果用邮件发验证码或登录链接，Bot 会从你已连接的 Gmail、Outlook 或它自己的邮箱里读取，不再问你要。前提是先把邮箱连上。</li>
+<li><strong>短信验证码</strong>：如果你的 Mac 已经注册到 Grok Bot，并允许 Bot 在上面执行命令，可以让它读「信息」里最新的验证码短信。这一步每次都会经过你设定的授权规则。</li>
+<li><strong>人机验证</strong>：图形点选、滑块、人脸这类，别让它硬试。</li>
+</ol>
+<h2 id="直接这样说" tabindex="-1">直接这样说 <a class="header-anchor" href="#直接这样说" aria-label="Permalink to &quot;直接这样说&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>以后登录需要验证码：邮件验证码去已连接的 Gmail 里找；</span></span>
+<span class="line"><span>短信验证码去我的 Mac 上读最近 3 条含「验证码」的短信；</span></span>
+<span class="line"><span>图形验证、滑块、人脸失败 2 次就停，截图发我。</span></span>
+<span class="line"><span>手机号和验证码不要写进任何文件。</span></span></code></pre>
+</div>]]></content:encoded>
+            <category>使用技巧</category>
+            <category>使用技巧</category>
+            <category>安全</category>
+            <category>登录</category>
+            <category>本地电脑</category>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek 开源推理引擎 DeepInfer]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-deepinfer</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-deepinfer</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[DeepSeek 把线上服务用的推理引擎开源了（Apache-2.0），首发支持 DeepSeek-V4.1-Flash，硬件支持 NVIDIA SM100 和华为昇腾 950；KV cache、PD 分离和负载均衡没有放出来。]]></description>
+            <content:encoded><![CDATA[<h1 id="deepseek-开源推理引擎-deepinfer" tabindex="-1">DeepSeek 开源推理引擎 DeepInfer <a class="header-anchor" href="#deepseek-开源推理引擎-deepinfer" aria-label="Permalink to &quot;DeepSeek 开源推理引擎 DeepInfer&quot;">&ZeroWidthSpace;</a></h1>
+<h2 id="发生了什么" tabindex="-1">发生了什么 <a class="header-anchor" href="#发生了什么" aria-label="Permalink to &quot;发生了什么&quot;">&ZeroWidthSpace;</a></h2>
+<p>DeepSeek 开源了 <a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" rel="noopener noreferrer">DeepInfer</a>，许可证 Apache-2.0。按 README 的说法，它就是 DeepSeek 线上大规模服务用的推理框架，这次放出的是离线推理部分。</p>
+<ul>
+<li><strong>支持的模型</strong>：DeepSeek-V4.1-Flash。</li>
+<li><strong>硬件</strong>：NVIDIA SM100 系列 GPU 和华为昇腾 950 NPU。</li>
+<li><strong>主要特性</strong>：优化过的计算内核；注意力和 MoE 的多种并行方式；DSpark 投机解码，默认最多 5 个草稿 token；结构化输出（正则、JSON Schema、EBNF）；在 NVIDIA 上支持确定性采样。</li>
+<li><strong>没有放出来的</strong>：KV cache 系统、Prefill/Decode 分离部署、多副本之间的负载均衡。完整的线上服务还需要这几块。</li>
+</ul>
+<h2 id="对你有什么用" tabindex="-1">对你有什么用 <a class="header-anchor" href="#对你有什么用" aria-label="Permalink to &quot;对你有什么用&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>个人和小团队基本用不上</strong>：硬件门槛很高，也缺上面几块组件。</li>
+<li><strong>值得看的是思路</strong>：它把「大模型推理怎么省钱」摊开了，想了解为什么有的模型能卖得便宜，可以看 README 里的特性说明和 Performance benchmarks 一节（测试用的是 4 张 SM100 做 prefill、64 张做 decode）。</li>
+<li>想自己跑开源模型，个人电脑上更现实的选择是 <a href="https://github.com/ollama/ollama" target="_blank" rel="noopener noreferrer">Ollama</a>，见<a href="/resources/?tab=projects">资源导航 · 开源项目</a>。</li>
+</ul>
+]]></content:encoded>
+            <category>好项目</category>
+            <category>开源</category>
+            <category>大模型</category>
+            <category>DeepSeek</category>
+        </item>
+        <item>
+            <title><![CDATA[发出去之前，先让 Bot 当一回「反方」]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-devils-advocate</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-devils-advocate</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[汇报、帖子、方案，发出去之前让 Bot 扮演最挑剔的读者逐句找毛病：没出处的删掉，没做完的标清状态，有争议的让你拍板。]]></description>
+            <content:encoded><![CDATA[<h1 id="发出去之前-先让-bot-当一回「反方」" tabindex="-1">发出去之前，先让 Bot 当一回「反方」 <a class="header-anchor" href="#发出去之前-先让-bot-当一回「反方」" aria-label="Permalink to &quot;发出去之前，先让 Bot 当一回「反方」&quot;">&ZeroWidthSpace;</a></h1>
+<p>AI 写东西有个通病：话说得太满。「降本增效」「实时」「全面上线」，读起来很顺，被人问一句「数据呢」就站不住。</p>
+<p>我们做季度汇报时用过一个方法，后来做帖子、写方案也一直在用：<strong>让 Bot 扮演最挑剔的读者，逐句找毛病</strong>。</p>
+<h2 id="三条规则" tabindex="-1">三条规则 <a class="header-anchor" href="#三条规则" aria-label="Permalink to &quot;三条规则&quot;">&ZeroWidthSpace;</a></h2>
+<ol>
+<li><strong>没出处的说法一律不加</strong>。有出处的，写明来自哪份文件、哪个链接。</li>
+<li><strong>没做完的事标清状态</strong>：「搭建中」「试行中」，不说成「已上线」。</li>
+<li><strong>有争议的让人拍板</strong>：Bot 只列出选项和理由，由你决定。</li>
+</ol>
+<h2 id="直接这样说" tabindex="-1">直接这样说 <a class="header-anchor" href="#直接这样说" aria-label="Permalink to &quot;直接这样说&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>对这份材料做「反方核对」。你是最挑剔的读者，逐句找毛病，输出表格：</span></span>
+<span class="line"><span>原说法 / 会被怎么驳 / 建议（保留、改为…、删除）/ 改完为什么驳不倒。</span></span>
+<span class="line"><span>只用我给的依据；有争议的列选项让我定；先出表，不要改原文件。</span></span></code></pre>
+</div>]]></content:encoded>
+            <category>方法论</category>
+            <category>方法论</category>
+            <category>汇报</category>
+            <category>内容创作</category>
+        </item>
+        <item>
+            <title><![CDATA[Grok Bot 0.71.2：一条消息能带 20 个附件，桌面端也能收提醒了]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-grok-bot-0-71-2</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-grok-bot-0-71-2</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[官方更新日志 10 月 14 日的 0.71.2 里，对普通用户最有用的 6 处变化，以及每一条你今天就能怎么用。]]></description>
+            <content:encoded><![CDATA[<h1 id="grok-bot-0-71-2-一条消息能带-20-个附件-桌面端也能收提醒了" tabindex="-1">Grok Bot 0.71.2：一条消息能带 20 个附件，桌面端也能收提醒了 <a class="header-anchor" href="#grok-bot-0-71-2-一条消息能带-20-个附件-桌面端也能收提醒了" aria-label="Permalink to &quot;Grok Bot 0.71.2：一条消息能带 20 个附件，桌面端也能收提醒了&quot;">&ZeroWidthSpace;</a></h1>
+<p>官方更新日志在 10 月 14 日发布了 0.71.2（同时包含 0.71.0 和 0.71.1）。改动有几十条，大部分是修 Bug，下面只挑<strong>普通用户马上能用上</strong>的 6 条，每条后面写了怎么用。</p>
+<h2 id="_1-附件上限大幅提高" tabindex="-1">1. 附件上限大幅提高 <a class="header-anchor" href="#_1-附件上限大幅提高" aria-label="Permalink to &quot;1. 附件上限大幅提高&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>一条消息最多带 <strong>20 个附件</strong>（之前是 6 个），一条消息总大小 200 MB，超出的会提示有几个没加上。</li>
+<li>单个文件最大 <strong>250 MB</strong>，视频最大 <strong>1 GB</strong>，视频太大看不了时 Bot 会直接说。需要 0.70.2 及以上版本。</li>
+</ul>
+<p><strong>怎么用</strong>：一个月的报销单、十几张截图，现在可以一次拖进去，让 Bot 一次性汇总：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>这是 10 月的 18 张报销截图。逐张读出日期、商户、金额、类别，</span></span>
+<span class="line"><span>整理成一张 Excel，最后一行求和；看不清的单独列出来，不要猜。</span></span></code></pre>
+</div><h2 id="_2-在电脑前时-提醒发到电脑上" tabindex="-1">2. 在电脑前时，提醒发到电脑上 <a class="header-anchor" href="#_2-在电脑前时-提醒发到电脑上" aria-label="Permalink to &quot;2. 在电脑前时，提醒发到电脑上&quot;">&ZeroWidthSpace;</a></h2>
+<p>用 Mac 或 Windows 时，Bot 的回复和提问会在电脑上提醒你，不再只推到手机。需要 0.70.2 及以上版本。审批卡片如果来自例程，大约 10 分钟没人处理就会过期，这条改动能少错过很多卡片。</p>
+<h2 id="_3-插件技能上限从-24-个提到-200-个" tabindex="-1">3. 插件技能上限从 24 个提到 200 个 <a class="header-anchor" href="#_3-插件技能上限从-24-个提到-200-个" aria-label="Permalink to &quot;3. 插件技能上限从 24 个提到 200 个&quot;">&ZeroWidthSpace;</a></h2>
+<p>装了很多插件时，以前有些插件自带的技能会被&quot;挤掉&quot;，现在最多能用 200 个。之前觉得&quot;装了插件但 Bot 好像不会用&quot;的，可以更新后再试一次。</p>
+<h2 id="_4-bot-自己的邮箱支持-带标签的地址" tabindex="-1">4. Bot 自己的邮箱支持&quot;带标签的地址&quot; <a class="header-anchor" href="#_4-bot-自己的邮箱支持-带标签的地址" aria-label="Permalink to &quot;4. Bot 自己的邮箱支持&quot;带标签的地址&quot;&quot;">&ZeroWidthSpace;</a></h2>
+<p>Bot 可以用 <code>名字+标签@</code> 这样的地址收发邮件，而且<strong>挂在某个标签上的例程只处理发到这个标签的邮件</strong>。比如订阅资讯用 <code>+news</code>，网站注册验证码用 <code>+signup</code>，互不干扰。详见今天的另一条日更：<a href="/daily/2026-10-20-bot-own-email.html">让 Bot 用自己的邮箱收验证码和订阅</a>。</p>
+<h2 id="_5-磁盘快满时会先问你" tabindex="-1">5. 磁盘快满时会先问你 <a class="header-anchor" href="#_5-磁盘快满时会先问你" aria-label="Permalink to &quot;5. 磁盘快满时会先问你&quot;">&ZeroWidthSpace;</a></h2>
+<p>Bot 的云电脑磁盘不够时，它会提醒一次、列出最大的几个文件，<strong>你同意后才删</strong>。</p>
+<h2 id="_6-语音通话断线会自动重连" tabindex="-1">6. 语音通话断线会自动重连 <a class="header-anchor" href="#_6-语音通话断线会自动重连" aria-label="Permalink to &quot;6. 语音通话断线会自动重连&quot;">&ZeroWidthSpace;</a></h2>
+<p>语音聊天掉线后会重连并继续同一段对话，不会直接挂断；用手机发起的语音通话也会唤醒正在休眠的云电脑。</p>
+<h2 id="同期官方消息-整体提速" tabindex="-1">同期官方消息：整体提速 <a class="header-anchor" href="#同期官方消息-整体提速" aria-label="Permalink to &quot;同期官方消息：整体提速&quot;">&ZeroWidthSpace;</a></h2>
+<p>官方账号 <a href="https://x.com/bot/status/2111184275374813362" target="_blank" rel="noopener noreferrer">@bot</a> 10 月 17 日（UTC+8）发帖说：电脑类任务平均快 3 倍完成，其他回复的等待时间不到原来的一半。这是官方给的平均数，没有公布测试方法；浏览器操作多的任务感受通常最明显，以你自己的任务实测为准。同一组帖子里还提到语音通话更快、更稳，也更能记住之前聊过的内容。</p>
+<h2 id="怎么确认自己是不是新版本" tabindex="-1">怎么确认自己是不是新版本 <a class="header-anchor" href="#怎么确认自己是不是新版本" aria-label="Permalink to &quot;怎么确认自己是不是新版本&quot;">&ZeroWidthSpace;</a></h2>
+<p>在账户菜单里打开 <strong>Support → About</strong> 可以看到版本号。桌面端默认开启自动更新，如果你关掉过，记得在设置的「更新」里手动检查。</p>
+]]></content:encoded>
+            <category>新闻简报</category>
+            <category>版本更新</category>
+            <category>附件</category>
+            <category>通知</category>
+            <category>插件</category>
+        </item>
+        <item>
+            <title><![CDATA[网站总拦 Bot、一直超时？先试这两个设置]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-site-blocks-bot</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-site-blocks-bot</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[有些网站会拦截云电脑的访问，重置电脑也没用。真正有效的是「通过这台电脑转发流量」和「在这台电脑上执行」两个开关。]]></description>
+            <content:encoded><![CDATA[<h1 id="网站总拦-bot、一直超时-先试这两个设置" tabindex="-1">网站总拦 Bot、一直超时？先试这两个设置 <a class="header-anchor" href="#网站总拦-bot、一直超时-先试这两个设置" aria-label="Permalink to &quot;网站总拦 Bot、一直超时？先试这两个设置&quot;">&ZeroWidthSpace;</a></h1>
+<p><strong>症状</strong>：同一个网址，你自己电脑上打得开，Bot 打开却一直转圈、报安全连接错误、弹验证码，或者干脆说超时。</p>
+<p><strong>原因</strong>：Bot 的云电脑通过共享网络上网，有些网站会直接拒绝这类来源的连接。官方帮助中心说得很明确：这种情况下 <strong>更新、恢复、重置云电脑都没用</strong>，别在这上面浪费时间。</p>
+<h2 id="办法一-通过你的电脑转发流量" tabindex="-1">办法一：通过你的电脑转发流量 <a class="header-anchor" href="#办法一-通过你的电脑转发流量" aria-label="Permalink to &quot;办法一：通过你的电脑转发流量&quot;">&ZeroWidthSpace;</a></h2>
+<p>打开 <strong>设置 → 电脑（Computer）→ 你的电脑（Your computer）</strong>，打开 <strong>Route traffic through this computer</strong>（通过这台电脑转发流量）。</p>
+<ul>
+<li>打开后，Bot 浏览器的新连接会走你桌面电脑的网络，网站看到的是你的网络和 IP。</li>
+<li><strong>前提</strong>：Grok Bot 桌面端要开着。如果提示先更新 Bot 的电脑，点更新即可。</li>
+<li>团队账号如果被管理员关掉了这个功能，开关会是锁定状态。</li>
+</ul>
+<h2 id="办法二-让-bot-在你的电脑上执行" tabindex="-1">办法二：让 Bot 在你的电脑上执行 <a class="header-anchor" href="#办法二-让-bot-在你的电脑上执行" aria-label="Permalink to &quot;办法二：让 Bot 在你的电脑上执行&quot;">&ZeroWidthSpace;</a></h2>
+<p>同一页里的 <strong>Execution on this computer</strong>（在这台电脑上执行），选「每次询问」或「始终允许」。这样 Bot 的命令和脚本（包括 API 调用）会在你的桌面电脑上跑，而不是云电脑。</p>
+<p>适合：调用只允许特定网络访问的接口、公司内网工具。更稳妥的设置方法见<a href="/basics/local-computer.html">在自己电脑上干活</a>。</p>
+<h2 id="遇到验证码或重新登录" tabindex="-1">遇到验证码或重新登录 <a class="header-anchor" href="#遇到验证码或重新登录" aria-label="Permalink to &quot;遇到验证码或重新登录&quot;">&ZeroWidthSpace;</a></h2>
+<p>这是网站在确认&quot;是不是真人&quot;，<strong>不要让 Bot 想办法绕过</strong>。让它停下来交给你：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>如果遇到验证码、登录页或二次验证，停在那一步，截图告诉我卡在哪，</span></span>
+<span class="line"><span>等我接管完成后你再继续，不要尝试绕过。</span></span></code></pre>
+</div><h2 id="两个都不行怎么办" tabindex="-1">两个都不行怎么办 <a class="header-anchor" href="#两个都不行怎么办" aria-label="Permalink to &quot;两个都不行怎么办&quot;">&ZeroWidthSpace;</a></h2>
+<p>带上网址和报错截图联系官方支持，他们可以查 Bot 的电脑能不能访问这个站点。联系时附上版本信息（账户菜单 → Support → About → Copy version info）和请求 ID（右键那条消息 → Copy request ID），处理会快很多。</p>
+]]></content:encoded>
+            <category>使用技巧</category>
+            <category>云电脑</category>
+            <category>故障排查</category>
+            <category>网络</category>
+        </item>
+        <item>
+            <title><![CDATA[先跑通一次，再存技能，最后才设例程]]></title>
+            <link>https://wangxxxl.com/daily/2026-10-20-skill-before-routine</link>
+            <guid isPermaLink="false">https://wangxxxl.com/daily/2026-10-20-skill-before-routine</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[自动化最常见的翻车是「还没手动做顺就设了定时」。三步走的顺序，加上每一步可以直接复制的提示词。]]></description>
+            <content:encoded><![CDATA[<h1 id="先跑通一次-再存技能-最后才设例程" tabindex="-1">先跑通一次，再存技能，最后才设例程 <a class="header-anchor" href="#先跑通一次-再存技能-最后才设例程" aria-label="Permalink to &quot;先跑通一次，再存技能，最后才设例程&quot;">&ZeroWidthSpace;</a></h1>
+<p>官方文档对技能和例程的区分只有一句话：<strong>技能说明&quot;怎么做&quot;，例程决定&quot;由哪个 Bot、什么时候做&quot;</strong>。并且建议：先在一次真实任务上测好技能，再把它变成例程。</p>
+<p>道理很简单：一个没手动验证过的流程，设成定时以后只会<strong>每天准时地出错</strong>。</p>
+<h2 id="第一步-当成一次性任务做一遍" tabindex="-1">第一步：当成一次性任务做一遍 <a class="header-anchor" href="#第一步-当成一次性任务做一遍" aria-label="Permalink to &quot;第一步：当成一次性任务做一遍&quot;">&ZeroWidthSpace;</a></h2>
+<p>不提&quot;每天&quot;，只说今天这一次，并要求它把过程讲出来：</p>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>帮我做一次今天的竞品动态汇总：查 A、B、C 三家的官网更新页和官方 X 账号，</span></span>
+<span class="line"><span>只要最近 24 小时的内容，每条一句话加原文链接。</span></span>
+<span class="line"><span>做完后告诉我：你用了哪些来源、哪一步最费时间、哪里拿不准。</span></span></code></pre>
+</div><p>看结果，挑毛病，让它改，直到你满意。<strong>这一步通常要两三轮。</strong></p>
+<h2 id="第二步-把做顺的流程存成技能" tabindex="-1">第二步：把做顺的流程存成技能 <a class="header-anchor" href="#第二步-把做顺的流程存成技能" aria-label="Permalink to &quot;第二步：把做顺的流程存成技能&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>把刚才这套做法保存成技能，名字叫"竞品动态汇总"。</span></span>
+<span class="line"><span>写清楚：来源清单、时间范围、输出格式、遇到打不开的来源怎么处理、</span></span>
+<span class="line"><span>哪些事情不要做（不发帖、不联系任何人）。</span></span></code></pre>
+</div><p>存好后换一天再手动调用一次技能，确认它能独立复现。</p>
+<h2 id="第三步-再设例程" tabindex="-1">第三步：再设例程 <a class="header-anchor" href="#第三步-再设例程" aria-label="Permalink to &quot;第三步：再设例程&quot;">&ZeroWidthSpace;</a></h2>
+<div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span>每个工作日 9:00，用"竞品动态汇总"技能跑一次，结果发在这个对话里。</span></span>
+<span class="line"><span>如果某个来源打不开，在末尾列出来，不要用旧内容凑数。</span></span></code></pre>
+</div><p>创建后先<strong>测试运行</strong>一次。注意：测试运行是真的在执行，不是演习。</p>
+<h2 id="判断要不要自动化的三个问题" tabindex="-1">判断要不要自动化的三个问题 <a class="header-anchor" href="#判断要不要自动化的三个问题" aria-label="Permalink to &quot;判断要不要自动化的三个问题&quot;">&ZeroWidthSpace;</a></h2>
+<ol>
+<li>这件事我是不是已经手动做过至少两三次、结果稳定？</li>
+<li>出错时 Bot 会不会明说，而不是悄悄给我一份错的？</li>
+<li>有没有&quot;不能撤回&quot;的动作（发送、发布、删除、购买）？有的话放在审批后面。</li>
+</ol>
+<p>三个都是&quot;是/有把握&quot;，再上例程。延伸阅读：<a href="/automation/skills.html">技能沉淀</a>、<a href="/automation/routines.html">例程：定时与事件触发</a>。</p>
+]]></content:encoded>
+            <category>方法论</category>
+            <category>技能</category>
+            <category>例程</category>
+            <category>自动化</category>
+        </item>
+    </channel>
+</rss>
