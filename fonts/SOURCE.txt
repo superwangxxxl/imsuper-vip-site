@@ -1,0 +1,5 @@
+Ma Shan Zheng（马善政毛笔行书）
+License: SIL Open Font License 1.1（见 OFL-MaShanZheng.txt）
+Source: https://github.com/googlefonts/mashanzheng  /  @fontsource/ma-shan-zheng
+This copy is subset to 王宇宙 only (the homepage wordmark).
+To rebuild: pyftsubset ma-shan-zheng-chinese-simplified-400-normal.woff2 --text=王宇宙 --flavor=woff2 --output-file=ma-shan-zheng.woff2

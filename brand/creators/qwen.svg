@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Qwen">
+  <rect width="32" height="32" rx="8" fill="#eeedff"/>
+  <g fill="none" stroke="#6157f6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 7.5l7.4 4.25v8.5L16 24.5l-7.4-4.25v-8.5z"/>
+    <path d="M16 16l5.2 3"/>
+  </g>
+</svg>

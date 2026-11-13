@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Mistral">
+  <rect width="32" height="32" rx="8" fill="#fff4ea"/>
+  <path fill="#ffc400" d="M7 7.5h3.6v3.4H7zm14.4 0H25v3.4h-3.6z"/>
+  <path fill="#ff9f00" d="M7 10.9h3.6v3.4H7zm3.6 0h3.6v3.4h-3.6zm7.2 0h3.6v3.4h-3.6zm3.6 0H25v3.4h-3.6z"/>
+  <path fill="#ff7a00" d="M7 14.3h18v3.4H7z"/>
+  <path fill="#fa500f" d="M7 17.7h3.6v3.4H7zm7.2 0h3.6v3.4h-3.6zm7.2 0H25v3.4h-3.6z"/>
+  <path fill="#e10500" d="M7 21.1h3.6v3.4H7zm14.4 0H25v3.4h-3.6z"/>
+</svg>

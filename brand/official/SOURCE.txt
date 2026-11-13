@@ -1,0 +1,8 @@
+Official marks used on wangxxxl.com
+
+1) grok-bot-mark.svg
+   - Exact Grok Bot head mark from https://x.ai/bot (product page inline SVG, classes grok-bot-mark / __head / __eye).
+   - Brand rules: https://x.ai/legal/brand-guidelines — use to accurately refer to Grok Bot; do not alter geometry; do not imply SpaceXSI/xAI endorsement of this community tutorial site.
+   - The downloadable zip https://data.x.ai/logos/xAI_Grok_Assets.zip contains Grok/xAI logomarks & wordmarks only (also stored under this folder when needed); it does not include this Bot character mark.
+
+2) Companion floating shapes on the homepage are original WANGXXXL site accents, not from xAI or any third-party tutorial site.
