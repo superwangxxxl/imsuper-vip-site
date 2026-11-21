@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Singapore",
+  "day": "2026-11-21",
+  "startedAt": "2026-11-21T16:02:42+08:00",
+  "finishedAt": "2026-11-21T16:02:45+08:00",
+  "ok": true,
+  "steps": [
+    {
+      "name": "cases",
+      "status": "ok",
+      "startedAt": "2026-11-21T16:02:42+08:00",
+      "summary": "CHANGED",
+      "ms": 3400,
+      "finishedAt": "2026-11-21T16:02:45+08:00"
+    },
+    {
+      "name": "models",
+      "status": "blocked",
+      "startedAt": "2026-11-21T16:02:45+08:00",
+      "summary": "没有 Artificial Analysis 密钥，也没有无密钥快照（inbox/aa-latest.json 或 AA_SNAPSHOT_PATH / --from-file）",
+      "ms": 1,
+      "finishedAt": "2026-11-21T16:02:45+08:00"
+    },
+    {
+      "name": "daily_scan",
+      "status": "degraded",
+      "startedAt": "2026-11-21T16:02:45+08:00",
+      "exitCode": 2,
+      "summary": "PARTIAL",
+      "ms": 243,
+      "finishedAt": "2026-11-21T16:02:45+08:00"
+    },
+    {
+      "name": "freshness",
+      "status": "stale",
+      "startedAt": "2026-11-21T16:02:45+08:00",
+      "summary": "今天（UTC+8）2026-11-21 | ok     日更最新一条　　　　　　 2026-11-15  6 天前（阈值 7） ",
+      "exitCode": 1,
+      "ms": 37,
+      "finishedAt": "2026-11-21T16:02:45+08:00"
+    }
+  ],
+  "models": {
+    "ok": false,
+    "blocked": true,
+    "reason": "没有 Artificial Analysis 密钥，也没有无密钥快照（inbox/aa-latest.json 或 AA_SNAPSHOT_PATH / --from-file）"
+  },
+  "cases": {
+    "ok": true,
+    "summary": "CHANGED"
+  },
+  "daily": {
+    "ok": false,
+    "degraded": true,
+    "latestDaily": "2026-11-15",
+    "pending": [],
+    "errors": [
+      {
+        "source": "https://x.ai/changelog/bot",
+        "error": "HTTP 403 https://x.ai/changelog/bot"
+      }
+    ],
+    "summary": "PARTIAL"
+  },
+  "freshness": {
+    "ok": false,
+    "report": "今天（UTC+8）2026-11-21\nok     日更最新一条　　　　　　 2026-11-15  6 天前（阈值 7） \nok     模型榜 榜单更新　　　　 2026-11-20  1 天前（阈值 365） 榜单内容最近一次变化的日期，仅供参考，不据此判过期\nok     模型榜 抓取/核查　　　 2026-11-20  1 天前（阈值 2） fetchedAt 2026-11-20T08:57:35+08:00\nok     项目事实 核对日期　　　 2026-11-21  0 天前（阈值 7） \nok     资源导航 updated 2026-10-26  26 天前（阈值 30） \nSTALE  每日刷新状态　　　　　　 2026-11-20  1 天前（阈值 1） result=degraded",
+    "summary": "今天（UTC+8）2026-11-21 | ok     日更最新一条　　　　　　 2026-11-15  6 天前（阈值 7） "
+  },
+  "handover": [
+    {
+      "need": "aa_snapshot_or_key",
+      "detail": "父侧 box 上已有授权 key（~/.config/artificialanalysis/api_key）。请任选其一：① 在 box 上 cron 跑本脚本（推荐，密钥不出 box）；② 父侧抓取后把无密钥合并快照放到仓库 inbox/aa-latest.json；③ 在 GitHub Actions secrets 配置 AA_API_KEY（名称 AA_API_KEY，本 Agent 无权代配）。不要把密钥贴到聊天或写入仓库。"
+    },
+    {
+      "need": "daily_scan_network",
+      "detail": "官方 changelog 扫描失败（常见 Cloudflare 403）。本机/Actions 可能被拦；请在能访问 x.ai 的 box 上跑本脚本，或稍后重试。不编新闻、不硬凑日更。"
+    }
+  ],
+  "result": "blocked"
+}
