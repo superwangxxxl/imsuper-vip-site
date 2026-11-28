@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>史上最强PPT：The Last Boring Slide 3D 演示</title>
+<link rel="canonical" href="https://wangxxxl.com/demos/last-boring-slide/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@IMWANGXXXL">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="王宇宙 | WANGXXXL">
+<meta property="og:image" content="https://wangxxxl.com/demos/last-boring-slide/cover.png">
+<meta name="twitter:image" content="https://wangxxxl.com/demos/last-boring-slide/cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:url" content="https://wangxxxl.com/demos/last-boring-slide/">
+<meta property="og:title" content="史上最强PPT：The Last Boring Slide 3D 演示">
+<meta property="og:description" content="三维互动幻灯片，点开全屏体验，页内可切换中英文。">
+<meta property="og:image:alt" content="史上最强PPT：The Last Boring Slide 3D 演示 · 王宇宙 | WANGXXXL · wangxxxl.com">
+<meta name="twitter:title" content="史上最强PPT：The Last Boring Slide 3D 演示">
+<meta name="twitter:description" content="三维互动幻灯片，点开全屏体验，页内可切换中英文。">
+<meta name="twitter:image:alt" content="史上最强PPT：The Last Boring Slide 3D 演示 · 王宇宙 | WANGXXXL · wangxxxl.com">
+<meta name="description" content="三维互动幻灯片，点开全屏体验，页内可切换中英文。">
+<script>
+(function () {
+  var STORAGE_KEY = 'wangxxxl-last-boring-slide-lang';
+  function normalize(lang) {
+    return lang === 'zh' || lang === 'zh-CN' || lang === 'zh-Hans' ? 'zh' : 'en';
+  }
+  var params = new URLSearchParams(location.search);
+  var lang = params.get('lang');
+  if (!lang) {
+    try { lang = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+  }
+  lang = normalize(lang || 'en');
+  params.set('lang', lang);
+  var target = (lang === 'zh' ? './zh.html' : './en.html') + '?' + params.toString() + location.hash;
+  location.replace(target);
+})();
+</script>
+</head>
+<body>
+<p>Loading… <a href="./en.html?lang=en">EN</a> · <a href="./zh.html?lang=zh">中文</a></p>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Singapore",
+  "day": "2026-11-28",
+  "startedAt": "2026-11-28T16:42:50+08:00",
+  "finishedAt": "2026-11-28T16:42:53+08:00",
+  "ok": true,
+  "steps": [
+    {
+      "name": "cases",
+      "status": "ok",
+      "startedAt": "2026-11-28T16:42:50+08:00",
+      "summary": "CHANGED",
+      "ms": 3284,
+      "finishedAt": "2026-11-28T16:42:53+08:00"
+    },
+    {
+      "name": "models",
+      "status": "ok",
+      "startedAt": "2026-11-28T16:42:53+08:00",
+      "summary": "NO_CHANGE",
+      "ms": 52,
+      "finishedAt": "2026-11-28T16:42:53+08:00"
+    },
+    {
+      "name": "daily_scan",
+      "status": "degraded",
+      "startedAt": "2026-11-28T16:42:53+08:00",
+      "exitCode": 2,
+      "summary": "PARTIAL",
+      "ms": 139,
+      "finishedAt": "2026-11-28T16:42:53+08:00"
+    },
+    {
+      "name": "freshness",
+      "status": "stale",
+      "startedAt": "2026-11-28T16:42:53+08:00",
+      "summary": "今天（UTC+8）2026-11-28 | STALE  日更最新一条　　　　　　 2026-11-15  13 天前（阈值 7） ",
+      "exitCode": 1,
+      "ms": 31,
+      "finishedAt": "2026-11-28T16:42:53+08:00"
+    }
+  ],
+  "models": {
+    "ok": true,
+    "changed": false,
+    "noChange": true,
+    "failed": false,
+    "via": "snapshot",
+    "snapshot": "/home/runner/work/grok-bot-guide/grok-bot-guide/inbox/aa-latest.json",
+    "summary": "NO_CHANGE",
+    "updatedAt": "2026-11-28",
+    "checkedAt": "2026-11-28",
+    "fetchedAt": "2026-11-28T08:51:50+08:00",
+    "refresh": null
+  },
+  "cases": {
+    "ok": true,
+    "summary": "CHANGED"
+  },
+  "daily": {
+    "ok": false,
+    "degraded": true,
+    "latestDaily": "2026-11-15",
+    "pending": [],
+    "errors": [
+      {
+        "source": "https://x.ai/changelog/bot",
+        "error": "HTTP 403 https://x.ai/changelog/bot"
+      }
+    ],
+    "summary": "PARTIAL"
+  },
+  "freshness": {
+    "ok": false,
+    "report": "今天（UTC+8）2026-11-28\nSTALE  日更最新一条　　　　　　 2026-11-15  13 天前（阈值 7） \nok     模型榜 榜单更新　　　　 2026-11-28  0 天前（阈值 365） 榜单内容最近一次变化的日期，仅供参考，不据此判过期\nok     模型榜 抓取/核查　　　 2026-11-28  0 天前（阈值 2） fetchedAt 2026-11-28T08:51:50+08:00\nok     项目事实 核对日期　　　 2026-11-28  0 天前（阈值 7） \nSTALE  资源导航 updated 2026-10-26  33 天前（阈值 30） \nok     每日刷新状态　　　　　　 2026-11-28  0 天前（阈值 1） result=ok",
+    "summary": "今天（UTC+8）2026-11-28 | STALE  日更最新一条　　　　　　 2026-11-15  13 天前（阈值 7） "
+  },
+  "handover": [
+    {
+      "need": "daily_scan_network",
+      "detail": "官方 changelog 扫描失败（常见 Cloudflare 403）。本机/Actions 可能被拦；请在能访问 x.ai 的 box 上跑本脚本，或稍后重试。不编新闻、不硬凑日更。"
+    }
+  ],
+  "result": "degraded"
+}
